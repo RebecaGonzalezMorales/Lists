@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Must See Places</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript"src="script.js">
+        </script>
+    </head>
+    <body>
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a class="Home" href="../Homepage.html">Home</a>
+            <a href="Food.html">Food</a>
+            <a href="#">Schedule</a>
+        </div>
+        <div id="main">
+          <button class="openbtn" onclick="openNav()">&#9776;</button>
+        </div>
+        <h1>Must See Places</h1>
+        <ol>
+            <li name="Montones">
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Montones
+                    </button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <div class="row">
+                            <div class="column">
+                                <a onclick="Montones()">Location</a>
+                            </div>
+                            <div class="column">
+                                  <p>Distance: 10mins</p>
+                            </div>
+                            <div class="column">
+                                <p>Parking $5 - $10</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li name="El Yunque">
+                <div class="dropdown">
+                    <button onclick="yunqueMenu()" class="dropbtn">El Yunque
+                    </button>
+                    <div id="Yunquedropdown" class="dropdown-content">
+                        <div class="row">
+                            <div class="column">
+                                <a onclick="elYunque()">Location</a>
+                                <p>Distance</p>
+                            </div>
+                            <div class="column">
+                                <p>Schedule</p>
+                                <a href="#">Website</a>
+                            </div>
+                            <div class="column">
+                                <a href="#">Kioskos de Luquillo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li name="Viejo San Juan">
+                <div class="dropdown">
+                    <button onclick="vsjMenu()" class="dropbtn">Viejo San Juan
+                    </button>
+                    <div id="vsjdropdown" class="dropdown-content">
+                        <div class="row">
+                            <div class="column">
+                                <a onclick="vsj()">Location</a>
+                                <p>Distance</p>
+                                <p>Parking</p>
+                                <a href="#">Website</a>
+                            </div>
+                            <div class="column">
+                                <a href="#">El Morro</a>
+                                <a href="#">Puerta de la Bandera</a>
+                                <a href="#">Puerta de San Juan</a>
+                                <a href="#">Bahia Urbana</a>
+                            </div>
+                            <div class="column">
+                                <a href="#">Se&#241;or Paletas</a>
+                                <a href="#">Buns</a>
+                                <a href="#">Casa Cortes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li name="La Parguera">
+                <div class="dropdown">
+                    <button onclick="LajasMenu()" class="dropbtn">La Parguera
+                    </button>
+                    <div id="Lajasdropdown" class="dropdown-content">
+                        <div class="row">
+                            <div class="column">
+                                <a onclick="Lajas()">Location</a>
+                                <p>Distance</p>
+                                <p>Parking</p>
+                                <a href="#">Website</a>
+                            </div>
+                            <div class="column">
+                                <a href="#">Bahia Bioluminiscente</a>
+                            </div>
+                            <div class="column">
+                                <a href="#">Kioskos</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li name="Ponce">
+                <div class="dropdown">
+                    <button onclick="PonceMenu()" class="dropbtn">Ponce
+                    </button>
+                    <div id="Poncedropdown" class="dropdown-content">
+                        <div class="row">
+                            <div class="column">
+                                <a onclick="Ponce()">Location</a>
+                                <p>Distance</p>
+                                <p>Parking</p>
+                                <a href="#">Website</a>
+                            </div>
+                            <div class="column">
+                                <a href="#">Bahia Bioluminiscente</a>
+                            </div>
+                            <div class="column">
+                                <a href="#">Kioskos</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li name="La Guancha">
+                <div class="dropdown">
+                    <button onclick="GuanchaMenu()" class="dropbtn">La Guancha
+                    </button>
+                    <div id="Guanchadropdown" class="dropdown-content">
+                        <div class="row">
+                            <div class="column">
+                                <a onclick="Guancha()">Location</a>
+                                <p>Distance</p>
+                                <p>Parking</p>
+                                <a href="#">Website</a>
+                            </div>
+                            <div class="column">
+                                <a href="#">Bahia Bioluminiscente</a>
+                            </div>
+                            <div class="column">
+                                <a href="#">Kioskos</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li name="Salinas de Cabo Rojo">
+                <div class="dropdown">
+                    <button onclick="SalinasMenu()" class="dropbtn">Salinas de Cabo Rojo
+                    </button>
+                    <div id="Salinasdropdown" class="dropdown-content">
+                        <div class="row">
+                            <div class="column">
+                                <a onclick="Salinas()">Location</a>
+                                <p>Distance</p>
+                                <p>Parking</p>
+                                <a href="#">Website</a>
+                            </div>
+                            <div class="column">
+                                <a href="#">Bahia Bioluminiscente</a>
+                            </div>
+                            <div class="column">
+                                <a href="#">Kioskos</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li name="Playa Sucia">
+                <div class="dropdown">
+                    <button onclick="SuciaMenu()" class="dropbtn">Playa Sucia
+                    </button>
+                    <div id="Suciadropdown" class="dropdown-content">
+                        <div class="row">
+                            <div class="column">
+                                <a onclick="Sucia()">Location</a>
+                                <p>Distance</p>
+                                <p>Parking</p>
+                                <a href="#">Website</a>
+                            </div>
+                            <div class="column">
+                                <a href="#">Bahia Bioluminiscente</a>
+                            </div>
+                            <div class="column">
+                                <a href="#">Kioskos</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li name="Jobos">
+                <div class="dropdown">
+                    <button onclick="JobosMenu()" class="dropbtn">Playa Jobos
+                    </button>
+                    <div id="Jobosdropdown" class="dropdown-content">
+                        <div class="row">
+                            <div class="column">
+                                <a onclick="Jobos()">Location</a>
+                                <p>Distance</p>
+                                <p>Parking</p>
+                                <a href="#">Website</a>
+                            </div>
+                            <div class="column">
+                                <a href="#">Bahia Bioluminiscente</a>
+                            </div>
+                            <div class="column">
+                                <a href="#">Kioskos</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li name="Survival">
+                <div class="dropdown">
+                    <button onclick="SurvivalMenu()" class="dropbtn">Survival Beach
+                    </button>
+                    <div id="Survivaldropdown" class="dropdown-content">
+                        <div class="row">
+                            <div class="column">
+                                <a onclick="Survival()">Location</a>
+                                <p>Distance</p>
+                                <p>Parking</p>
+                                <a href="#">Website</a>
+                            </div>
+                            <div class="column">
+                                <a href="#">Bahia Bioluminiscente</a>
+                            </div>
+                            <div class="column">
+                                <a href="#">Kioskos</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li name="Caverna">
+                <div class="dropdown">
+                    <button onclick="CavernaMenu()" class="dropbtn">Cavernas de Camuy
+                    </button>
+                    <div id="Cavernadropdown" class="dropdown-content">
+                        <div class="row">
+                            <div class="column">
+                                <a onclick="Caverna()">Location</a>
+                                <p>Distance</p>
+                                <p>Parking</p>
+                                <a href="#">Website</a>
+                            </div>
+                            <div class="column">
+                                <a href="#">Bahia Bioluminiscente</a>
+                            </div>
+                            <div class="column">
+                                <a href="#">Kioskos</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li name="Cueva Ventana">
+                <div class="dropdown">
+                    <button onclick="VentanaMenu()" class="dropbtn">Cueva Ventana
+                    </button>
+                    <div id="Ventanadropdown" class="dropdown-content">
+                        <div class="row">
+                            <div class="column">
+                                <a onclick="Ventana()">Location</a>
+                                <p>Distance</p>
+                                <p>Parking</p>
+                                <a href="#">Website</a>
+                            </div>
+                            <div class="column">
+                                <a href="#">Bahia Bioluminiscente</a>
+                            </div>
+                            <div class="column">
+                                <a href="#">Kioskos</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li name="Observatorio">
+                <div class="dropdown">
+                    <button onclick="ObservatorioMenu()" class="dropbtn">Observatorio de Arecibo
+                    </button>
+                    <div id="Observatoriodropdown" class="dropdown-content">
+                        <div class="row">
+                            <div class="column">
+                                <a onclick="Observatorio()">Location</a>
+                                <p>Distance</p>
+                                <p>Parking</p>
+                                <a href="#">Website</a>
+                            </div>
+                            <div class="column">
+                                <a href="#">Bahia Bioluminiscente</a>
+                            </div>
+                            <div class="column">
+                                <a href="#">Kioskos</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li name="Anasco">
+                <div class="dropdown">
+                    <button onclick="AnascoMenu()" class="dropbtn">A&#241;asco
+                    </button>
+                    <div id="Anascodropdown" class="dropdown-content">
+                        <div class="row">
+                            <div class="column">
+                                <a onclick="Anasco()">Location</a>
+                                <p>Distance</p>
+                                <p>Parking</p>
+                                <a href="#">Website</a>
+                            </div>
+                            <div class="column">
+                                <a href="#">Bahia Bioluminiscente</a>
+                            </div>
+                            <div class="column">
+                                <a href="#">Kioskos</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li name="Pinones">
+                <div class="dropdown">
+                    <button onclick="PinonesMenu()" class="dropbtn">Pi&#241;ones
+                    </button>
+                    <div id="Pinonesdropdown" class="dropdown-content">
+                        <div class="row">
+                            <div class="column">
+                                <a onclick="Pinones()">Location</a>
+                                <p>Distance</p>
+                                <p>Parking</p>
+                                <a href="#">Website</a>
+                            </div>
+                            <div class="column">
+                                <a href="#">Bahia Bioluminiscente</a>
+                            </div>
+                            <div class="column">
+                                <a href="#">Kioskos</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li name="Crashboat">
+                <div class="dropdown">
+                    <button onclick="CrashboatMenu()" class="dropbtn">Crashboat Beach
+                    </button>
+                    <div id="Crashboatdropdown" class="dropdown-content">
+                        <div class="row">
+                            <div class="column">
+                                <a onclick="Crashboat()">Location</a>
+                                <p>Distance</p>
+                                <p>Parking</p>
+                                <a href="#">Website</a>
+                            </div>
+                            <div class="column">
+                                <a href="#">Bahia Bioluminiscente</a>
+                            </div>
+                            <div class="column">
+                                <a href="#">Kioskos</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li name="Seven Seas">
+                <div class="dropdown">
+                    <button onclick="SevenSeasMenu()" class="dropbtn">Seven Seas
+                    </button>
+                    <div id="SevenSeasdropdown" class="dropdown-content">
+                        <div class="row">
+                            <div class="column">
+                                <a onclick="SevenSeas()">Location</a>
+                                <p>Distance</p>
+                                <p>Parking</p>
+                                <a href="#">Website</a>
+                            </div>
+                            <div class="column">
+                                <a href="#">Bahia Bioluminiscente</a>
+                            </div>
+                            <div class="column">
+                                <a href="#">Kioskos</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ol>
+    </body>
+</html>
